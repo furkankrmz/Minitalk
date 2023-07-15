@@ -2,8 +2,8 @@
 Bu projenin amacı, UNIX sinyallerini kullanarak küçük bir veri değişim programı kodlamaktır.
 Sunucu ve istemci yürütülebilir dosyalar üretmelisiniz.
 İstemci, bir parametre olarak geçirilen bir dizeyi sunucuya iletmeli (sürecin kimliğiyle referans alınmalı(referenced by its process ID)) ve sunucu bunu görüntülemelidir.
-YALNIZCA SIGUSR1 ve SIGUSR2 sinyallerini kullanmalısınız.
-İzin Verilen Fonksiyonlar
+YALNIZCA SIGUSR1 ve SIGUSR2 sinyallerini kullanmalısınız.<br/>
+### İzin Verilen Fonksiyonlar
 
 - [`malloc`](https://man7.org/linux/man-pages/man3/free.3.html)
 - [`free`](https://man7.org/linux/man-pages/man3/free.3.html)
